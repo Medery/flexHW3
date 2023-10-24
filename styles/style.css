@@ -281,3 +281,27 @@ transition-duration: 0.3s;
 }
 
 
+.nav__menu a {
+  transition: 200ms;
+}
+
+.nav__menu a:hover {
+  color: #6C0287;
+}
+
+
+.contacts__icon {
+  transition: transform 0.3s; 
+}
+
+.contacts__item:hover .contacts__icon {
+  transform: scale(1.1);
+}
+
+.contacts__social-icon{
+  transition: transform 300ms;
+}
+
+.contacts__social-icon:hover {
+  transform: scale(1.2);
+}
